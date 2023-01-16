@@ -9,8 +9,7 @@
 int main(int argc, char **argv)
 {
 	(void) argc;
-	printf("%s\n", argv);
+	prinf"nalu"("%s\n", argv[0]);
 
 	return (0);
 }
-
