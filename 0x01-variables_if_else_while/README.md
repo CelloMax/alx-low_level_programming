@@ -1,1 +1,1 @@
-this is the readme file
+variables and if else

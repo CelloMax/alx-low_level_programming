@@ -1,1 +1,1 @@
-Debuging project
+Debugging

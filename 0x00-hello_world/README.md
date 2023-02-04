@@ -1,1 +1,1 @@
-learning C
+This is my first C exercise

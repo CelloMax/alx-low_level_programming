@@ -48,4 +48,3 @@ int is_prime_number(int num)
 
 	return (evaluate_num(num, iterator));
 }
-

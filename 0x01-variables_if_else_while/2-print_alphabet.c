@@ -1,20 +1,20 @@
 #include <stdio.h>
 #include <stdlib.h>
+
 /**
- * main - main block
- * Description: Write a program that prints the alphabet in lowercase
- * Return: 0
+ * main - returns alphabets
+ *
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
-	char c = 'a';
+	int ch = 'a';
 
-	while (c <= 'z')
+	while (ch <= 'z')
 	{
-		putchar(c);
-		c++;
+		putchar(ch);
+		ch++;
 	}
-
 	putchar('\n');
 	return (0);
 }

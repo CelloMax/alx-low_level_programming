@@ -1,30 +1,28 @@
 #include <stdio.h>
+
 /**
- * main - Entry point
+ * main - prints numbers from 0 to 9 separated by a coma followed by a space
  *
- * Return: Always 0 (Success/correct)
+ * Return: Always 0 (success)
+ *
  */
+
 int main(void)
 
 {
-int number;
+	int num = '0';
 
-
-for (number = 48; number <= 57; number++)
-{
-putchar(number);
-
-if (number == 57)
-{
-break;
-}
-
-putchar(',');
-putchar (' ');
-}
-
-putchar('\n');
-
-return (0);
+	while (num <= '9')
+	{
+		putchar(num);
+		if (num != '9')
+		{
+			putchar(',');
+			putchar(' ');
+		}
+		num++;
+	}
+	putchar('\n');
+	return (0);
 
 }

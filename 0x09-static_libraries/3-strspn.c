@@ -33,4 +33,3 @@ unsigned int _strspn(char *s, char *accept)
 	return (matches); /* return num if all match till end */
 
 }
-

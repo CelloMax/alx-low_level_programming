@@ -1,26 +1,25 @@
 #include <stdio.h>
+#include <stdlib.h>
+
 /**
- * main - main block
- * Description:program that  prints the alphabet in lowercase,
- * and then in uppercase
- * Return: 0
+ * main - returns alphabets both lower and upper cases
+ *
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
-	char c = 'a';
+	int ch = 'a';
+	int CH = 'A';
 
-	while (c <= 'z')
+	while (ch <= 'z')
 	{
-		putchar(c);
-		c++;
+		putchar(ch);
+		ch++;
 	}
-
-	c = 'A';
-
-	while (c <= 'Z')
+	while (CH <= 'Z')
 	{
-		putchar(c);
-		c++;
+		putchar(CH);
+		CH++;
 	}
 
 	putchar('\n');
